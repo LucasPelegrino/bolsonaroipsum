@@ -89,7 +89,9 @@ margin: 0 auto;}
        border-radius: 0.7em;
        box-shadow: 5px 5px 5px rgba(50,50,50,0.6);
        margin: 0 auto;
-       padding: 0.7em;
+       padding: 1em;
+       box-sizing: border-box;
+       overflow: auto;
 
    }
 

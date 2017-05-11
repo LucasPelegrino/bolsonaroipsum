@@ -69,7 +69,7 @@
 
 
                 <button type="button" value="Oprimir" id="gerarTexto">Oprimir!</button>
-                <div id="textoGerado">asdfsdsdfsdfsdfdfsdfasdfasdfasdfasdfasfd</div>
+                <div id="textoGerado"></div>
 
             </div>
         </div>
@@ -79,6 +79,51 @@
             </footer>
     </div>
     <!-- fim do container -->
+
+
+    <script type="text/javascript"> 
+    
+        var loremIpsum = ["<p>#Bolsonaro2018 ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra efficitur leo, nec vehicula dui placerat sit amet. Aenean nisl augue, elementum eget dictum at, fringilla id elit. Mauris sollicitudin turpis ut magna blandit, nec porta turpis efficitur. Pellentesque in arcu ullamcorper, finibus magna sed, maximus ex. Donec in urna metus. Sed at luctus velit, nec placerat turpis. Nam est augue, volutpat sed risus quis, ultricies scelerisque metus. </p><br>",
+        
+        "<p>Nulla lobortis scelerisque ullamcorper. Maecenas leo ligula, suscipit vel commodo quis, ultricies nec ante. Vestibulum et tincidunt sapien, ac ultrices mauris. Duis efficitur lectus sed ligula cursus ultricies. Nam in commodo velit, in ullamcorper magna. Donec sed lectus id nunc faucibus tristique non eu metus. Phasellus lobortis ligula egestas, finibus mi in, mattis mauris. Praesent egestas, nisl vitae commodo pretium, nisi sem malesuada massa, sed commodo purus nunc vitae tortor. Aenean congue, erat malesuada dapibus porta, elit ipsum pulvinar magna, in ultricies erat neque finibus nisi. Cras in quam eget enim pellentesque ultrices eu et ex. Sed in erat dui. Morbi vestibulum pretium pulvinar.</p> <br>",
+        
+        "<p> Ut lacinia, erat et molestie pretium, risus nisl vehicula metus, ac viverra odio lacus in enim. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut ac dolor id augue iaculis sagittis. In id feugiat tellus, at semper est. Suspendisse neque enim, lacinia at volutpat nec, ultricies a libero. Suspendisse sit amet lobortis tortor. Integer vitae lectus sit amet lacus ultrices tincidunt. Suspendisse sollicitudin lorem in imperdiet lobortis. </p><br>",
+
+        "<p>Maecenas vel nisl id erat congue faucibus. Donec at euismod mauris. Aenean nec magna sit amet ex lobortis sagittis. Nunc nec felis maximus, dictum orci in, ornare tortor. Morbi ligula metus, sollicitudin non feugiat at, pulvinar sit amet mi. Nullam in finibus libero, ut rhoncus libero. Ut commodo ante ex, et euismod ligula ornare non. Donec pellentesque magna id nisi elementum, nec porta urna auctor. Vivamus a urna quis nibh congue placerat. Suspendisse ut nisi velit. Pellentesque dolor odio, convallis a nisi tincidunt, vulputate accumsan ligula. Fusce libero arcu, sollicitudin a eros egestas, dapibus molestie nunc. Sed elit nunc, gravida luctus enim venenatis, luctus interdum mauris. In quis hendrerit velit. Nullam vel rhoncus tortor. Curabitur ac ligula in dolor ornare faucibus a ac eros. </p><br>",
+
+        "<p>Curabitur commodo lectus ut luctus placerat. Pellentesque facilisis, nisl non mollis malesuada, nunc nulla tempor nisl, non aliquet neque nisl vel augue. Aenean dui lacus, mattis a libero sit amet, lobortis fermentum libero. Donec sollicitudin magna non cursus vestibulum. Duis vehicula, ante ullamcorper scelerisque sollicitudin, odio massa placerat turpis, sit amet venenatis tellus leo eu orci. Morbi vestibulum leo id justo blandit ullamcorper. Aenean et aliquam arcu. Donec et tortor sed nisi efficitur ultrices. Suspendisse mauris odio, fermentum vel arcu ac, commodo eleifend dui. In venenatis dapibus tellus sit amet aliquam. Aenean luctus elit eu sapien elementum, ut feugiat magna mattis. Donec nec faucibus dolor. </p><br>",
+
+        "<p>Pellentesque ac posuere arcu. Phasellus dapibus, diam at feugiat porta, urna ipsum auctor leo, in viverra nisi enim vitae nibh. Maecenas in nisl dictum, porta arcu nec, congue magna. Nunc mattis nisl at diam tempor, at fermentum velit vulputate. In ut massa et tellus tristique auctor a condimentum turpis. Quisque mi leo, efficitur sed elit sed, tristique molestie felis. Sed ac venenatis tellus. Cras non leo pellentesque, convallis dolor sit amet, maximus neque. Phasellus purus leo, auctor in nunc semper, pharetra mattis metus. Duis malesuada turpis nisl, tincidunt accumsan est scelerisque tristique. Mauris vulputate ut sem vel venenatis. Fusce vel ante a tellus mattis tempor at eu neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras convallis sodales dui, eu congue tortor varius non. Mauris sit amet dapibus ante. Sed dui elit, sollicitudin pellentesque dui sit amet, vestibulum consectetur massa. </p><br>",
+
+        "<p>Proin rutrum consequat erat, vitae pretium ex. Pellentesque quis cursus dolor. Praesent a massa eu nunc malesuada posuere vitae id risus. Nam malesuada lorem eros, ultricies tristique nibh ultricies nec. Proin id sodales diam. Nam id quam a nisi tempus iaculis. Duis enim augue, scelerisque at convallis non, maximus et purus. Morbi imperdiet mollis urna, sit amet ultricies orci suscipit non. Nam bibendum sodales lacus sed imperdiet. Vestibulum bibendum accumsan convallis. Vivamus tincidunt, neque eget pretium dapibus, sem metus fermentum magna, ac iaculis leo quam vitae libero. Sed hendrerit magna ut urna fermentum vehicula. Donec tempus eros vitae eros volutpat vulputate fringilla non enim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam vestibulum lacinia fringilla. </p><br>",
+
+        "<p>Aenean euismod quam at tincidunt pulvinar. Mauris at metus ac justo viverra ornare ac eu erat. Nulla placerat turpis sit amet euismod tristique. Mauris pretium quam eu nunc viverra, hendrerit euismod elit ullamcorper. Etiam aliquam dapibus nibh at posuere. Pellentesque vel velit eget massa semper suscipit a non nisi. Nulla luctus enim sollicitudin, tincidunt odio ac, pulvinar augue. Nam et ipsum sapien. Donec est velit, hendrerit quis ullamcorper eu, commodo eu orci. Donec bibendum dapibus neque sit amet maximus. </p><br>",
+
+        "<p>In et orci lobortis, ullamcorper tortor a, vehicula risus. Nam et dui vel nisi maximus interdum non vel urna. Morbi porta tempor accumsan. Suspendisse in posuere massa. Quisque ac ultrices ante. Nunc lorem eros, fermentum nec ex vel, tristique semper ante. Nam aliquam nibh facilisis eros facilisis vestibulum. Donec sit amet lobortis mauris. In vitae mi nulla. Integer ullamcorper nulla erat, ut iaculis nibh luctus eget. Integer convallis est a pharetra tincidunt. Nam cursus vel lorem quis eleifend. Fusce elementum sapien neque, nec viverra felis ultricies at. Duis scelerisque diam diam, interdum lobortis orci volutpat in. Donec in nisl ultrices enim fermentum vulputate vel at nibh. </p><br>",
+
+        "<p>Pellentesque condimentum est ipsum, condimentum pulvinar lacus sollicitudin id. Vestibulum quam tortor, porttitor a nulla ut, malesuada ultrices mi. Aliquam at nunc ut ante tempor scelerisque. Sed vestibulum ultrices nisi, eget facilisis erat aliquet sed. In ornare arcu id sem suscipit, et eleifend arcu fringilla. Donec quis nulla eu augue tincidunt imperdiet. Nullam ornare diam vitae nulla ornare, auctor iaculis dolor vestibulum. Donec sit amet mauris vel arcu consequat laoreet aliquet nec turpis. Ut at nunc urna. Donec iaculis vitae urna quis egestas. Aenean nec fringilla sapien. </p><br>",];    
+    
+
+    var oprimir = document.getElementById("gerarTexto");
+    var textoGerado = document.getElementById("textoGerado");
+
+    function gerarLoremIpsum(){
+        var paragrafos = document.getElementById("seletorDeParagrafos");
+        var numeroParagrafos = paragrafos.options[paragrafos.selectedIndex].value;
+
+        textoGerado.innerHTML = "";
+
+        for(var i = 0; i < numeroParagrafos; i++){
+
+            textoGerado.innerHTML = textoGerado.innerHTML + loremIpsum[i];
+        }
+
+    };
+
+    oprimir.addEventListener("click",gerarLoremIpsum);
+
+    </script>
+
 </body>
 
 </html>
