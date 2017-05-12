@@ -53,37 +53,47 @@
 
             <div class="coluna coluna6 colunaMed3 colunaPeq2 center section">
 
-                <p style="float: left; color: #fff"> Quantidade de parágrafos: </p>
-                <select id="seletorDeParagrafos"> 
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-            </select>
+                <div id="seletorQuantidade">
+                    <span style="color: #fff">Quantidade de parágrafos: </span>
+                    <select id="seletorDeParagrafos"> 
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
 
 
-                <button type="button" value="Oprimir" id="gerarTexto">Oprimir!</button>
+                    <button type="button" value="Oprimir" id="gerarTexto">Oprimir!</button>
+                </div>
                 <div id="textoGerado"></div>
 
             </div>
         </div>
 
-            <footer> <p> Feito por <a href="" target="_blank"> Araujo de Paula </a> com muito amor, opressão, e <a href="" target="_blank"> Fuck Bootstrap </a>!</p> <br>
-               <h4> <p> #Bolsonaro2018</p></h4>
-            </footer>
+        <footer>
+            <p> Feito por <a href="" target="_blank"> Alex Araujo </a> com <span> <img src="imagens/coracao.svg" style="width: 1.5em; height: 1.1em;"/></span>, opressão e <a href="" target="_blank"> Fuck Bootstrap </a>!</p>
+            <br>
+            <h4>
+                <p> #Bolsonaro2018</p>
+            </h4>
+        </footer>
     </div>
     <!-- fim do container -->
 
 
     <script type="text/javascript"> 
     
-        var loremIpsum = ["<p>#Bolsonaro2018 ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra efficitur leo, nec vehicula dui placerat sit amet. Aenean nisl augue, elementum eget dictum at, fringilla id elit. Mauris sollicitudin turpis ut magna blandit, nec porta turpis efficitur. Pellentesque in arcu ullamcorper, finibus magna sed, maximus ex. Donec in urna metus. Sed at luctus velit, nec placerat turpis. Nam est augue, volutpat sed risus quis, ultricies scelerisque metus. </p><br>",
+        var loremIpsum = ["<p>#Bolsonaro2018 ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra efficitur leo, nec vehicula dui placerat sit amet. Aenean nisl augue, elementum eget dictum at, fringilla id elit. Mauris sollicitudin turpis ut magna blandit, nec porta turpis efficitur. Pellentesque in arcu ullamcorpeis, ultricies nec ante. Vestibulum et tincidunt sapien, ac ultrices mauris. Duis efficitur lectus sed ligula cursus ultricies. Nam in commodo velit, in ullamcorper magna. Donec sed lectus id nunc faucibus tristique non eu metus. Phasellus lobortis ligula egestas, finibus mi in, mattis mauris. Praesent egestas, nisl vitae commodo pretium, nisi sem malesuada massa, sed commodo purus nunc vitae tortor. Aenean congue, erat malesuada dapibus porta, elit ipsum pulvinar magna, in ultricies erat neque finibus nisi. Cras in quam eget enim pellentesque ultrices eu et ex. Sed in erat dui. Morbi vestibulum pretium pulvinar.</p> <br>",
+        
+        "<p> Ut lacinia, erat et molestie pretium, risus nisl vehicula metus, ac viverra odio lacus in enim. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut ac dolor id augue iaculis sagittis. In id feugiat tellus, at semper est. Suspendisse neque enim, lacinia at volutpat nec, ultricies a libero. Suspendisse sit amet lobortis tortor. Integer vitae lectus sit amet lacus ultrices tincidunt. Suspendisse sollicitudin lorem in imperdiet lobortis. </p><br>",
+
+        "<p>Maecenas vel nisl id erat congue faucibus. Donec at euismod mauris. Aenean nec magna sit amet ex lobortis sagittis. Nunc nec felis maximus, dictum orci in, ornare tortor. Morbi ligula metus, sollicitudin non feugiat at, pulvinar sit amet mi. Nullam in finibus libero, ut rhoncus libero. Ut commodo ante ex, et euismod ligula ornare non. Donec pellentesque magna id nisi elementum, nec porta urna auctor. Vivamus a urna quis nibh congue placerat. Suspendisse ut nisi velit. Pellentesque dolor odio, convallis a nisi tincidunt, vulputate accumsan ligula. Fusce libero arcu, sollicitudin a eros egestas, dapr, finibus magna sed, maximus ex. Donec in urna metus. Sed at luctus velit, nec placerat turpis. Nam est augue, volutpat sed risus quis, ultricies scelerisque metus. </p><br>",
         
         "<p>Nulla lobortis scelerisque ullamcorper. Maecenas leo ligula, suscipit vel commodo quis, ultricies nec ante. Vestibulum et tincidunt sapien, ac ultrices mauris. Duis efficitur lectus sed ligula cursus ultricies. Nam in commodo velit, in ullamcorper magna. Donec sed lectus id nunc faucibus tristique non eu metus. Phasellus lobortis ligula egestas, finibus mi in, mattis mauris. Praesent egestas, nisl vitae commodo pretium, nisi sem malesuada massa, sed commodo purus nunc vitae tortor. Aenean congue, erat malesuada dapibus porta, elit ipsum pulvinar magna, in ultricies erat neque finibus nisi. Cras in quam eget enim pellentesque ultrices eu et ex. Sed in erat dui. Morbi vestibulum pretium pulvinar.</p> <br>",
         
