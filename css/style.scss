@@ -53,94 +53,17 @@ margin: 0 auto;}
 
 
 
+
+
+
 @media screen and (min-width:240px) and (max-width:479px){
-
-
-#segundaLinha{
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    margin-bottom: 1em;
-    margin-top: -5%;
-        #conteudoSegundaLinha{
-            p{
-                color: #fff;
-                font-size: 1em;
-                line-height: 1.2em;
-            }
-        }
 }
 
-   .titulo{
-       font-size: 2em;
-       text-align: center;
-   }
-   .subtitulo{
-       font-size: 1.5em;
-   }
-}
 
-#terceiraLinha{
-    margin:3em 0.5em 1em 0.5em;
-   
-
-
-    #seletorQuantidade{
-        display: inline-block;
-    }
-
-
-    #textoGerado{
-       width: 80%;
-       height: 20em;
-       background-color: #fff;
-       border-radius: 0.7em;
-       box-shadow: 5px 5px 5px rgba(50,50,50,0.6);
-       margin: 0 auto;
-       padding: 1em;
-       box-sizing: border-box;
-       overflow: auto;
-
-   }
-
-   #seletorDeParagrafos{
-       margin-left: 1.5em;
-       margin-right: 1.5em;
-   }
-
-   #gerarTexto{
-       width: auto;
-       height: 2em;
-       color: #fff;
-       font-size: 1.1em;
-       font-weight: bold;
-       border-radius: 0.5em;
-       border: none;
-       margin-top: 1em;
-       margin-bottom: 2em;
-       text-shadow: 0.1em 0.1em 0.1em rgba(50,50,50,0.6);
-       background: linear-gradient(to bottom, #0073FF 10%,#009FFF);
-       box-shadow: 0.15em 0.15em 0.25em rgba(50,50,50,0.6);
-   }
-   #gerarTexto:hover{
-        background:linear-gradient(to bottom, #009FFF 10%, #33B2FF );
-        text-shadow: 0.1em 0.1em 0.1em rgba(50,50,50,0.6);
-   }
-
-}
 
 
 //tablets e telefones grandes
 @media screen and (min-width:480px) and (max-width:719px){
-    
-    #segundaLinha{
-        #conteudoSegundaLinha{
-            color: #fff;
-
-        }
-        .titulo{
-            font-size: 2em;
-        }
-    }
 }
 
 
