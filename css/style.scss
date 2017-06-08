@@ -6,12 +6,8 @@ body{background-image: url("../imagens/textura.jpg");}
 
 #topo{margin: 0 auto;
 width: 100%;
-height: 100vh;
 text-align: center;}
 
-
-.section{width: 100%;
-height: 100vh;}
 
 #imgMito{ max-height: 70%;
 margin: 0 auto;}
@@ -55,8 +51,95 @@ margin: 0 auto;}
 
 
 
+    #segundaLinha{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 1em;
+    margin-top: -5%;
+        #conteudoSegundaLinha{
+            p{
+                color: #fff;
+                font-size: 1em;
+                line-height: 1.2em;
+            }
+        }
+}
+
+   .titulo{
+       font-size: 2em;
+       text-align: center;
+   }
+   .subtitulo{
+       font-size: 1.5em;
+   }
+
+#terceiraLinha{
+    margin:10em 0.5em 1em 0.5em;
+   
+    #conteudoTerceiraLinha{
+
+    }
+
+    #seletorQuantidade{
+        margin-left: 10%;
+        display: inline-block;
+    }
+
+   #seletorDeParagrafos{
+       margin-left: 1.5em;
+       margin-right: 1.5em;
+   }
+
+   #gerarTexto{
+       width: auto;
+       height: 2em;
+       color: #fff;
+       font-size: 1.1em;
+       font-weight: bold;
+       border-radius: 0.5em;
+       border: none;
+       margin-top: 1em;
+       margin-bottom: 2em;
+       text-shadow: 0.1em 0.1em 0.1em rgba(50,50,50,0.6);
+       background: linear-gradient(to bottom, #0073FF 10%,#009FFF);
+       box-shadow: 0.15em 0.15em 0.25em rgba(50,50,50,0.6);
+   }
+   #gerarTexto:hover{
+        background:linear-gradient(to bottom, #009FFF 10%, #33B2FF );
+        text-shadow: 0.1em 0.1em 0.1em rgba(50,50,50,0.6);
+   }
+
+}
+
+#quartaLinha{
+     #textoGerado{
+       width: 100%;
+       height: 20em;
+       background-color: #fff;
+       border-radius: 0.7em;
+       box-shadow: 5px 5px 5px rgba(50,50,50,0.6);
+       margin: 0 auto;
+       padding: 1em;
+       box-sizing: border-box;
+       overflow: auto;
+
+   }
+
+   margin-bottom: 20vh;
+}
+
+
+
 
 @media screen and (min-width:240px) and (max-width:479px){
+    #topo{
+        margin-bottom: 20vh;
+    }
+ #quartaLinha{
+     #textoGerado{
+         width: 80%;
+     }
+ }
 }
 
 
@@ -64,13 +147,54 @@ margin: 0 auto;}
 
 //tablets e telefones grandes
 @media screen and (min-width:480px) and (max-width:719px){
+    #topo{
+        margin-bottom: 30vh;
+    }
+       .titulo{
+       font-size: 2.75em;
+       text-align: center;
+   }
+   .subtitulo{
+       font-size: 1.5em;
+   }
 }
 
 
 
 //notebooks
-@media screen and (min-width:720px){}
+@media screen and (min-width:720px){
+    #topo{
+        margin-bottom: 30vh;
+    }
+
+       .titulo{
+       font-size: 3.75em;
+       text-align: center;
+   }
+   .subtitulo{
+       font-size: 2em;
+   }
+
+    #terceiraLinha{
+
+        #seletorQuantidade{
+            margin-left: 10%;
+            display: inline-block;
+        }
+
+    }
+}
 
 
 //pcs de tela maior
-@media screen and (min-width: 920px){}
+@media screen and (min-width: 920px){
+
+     #terceiraLinha{
+
+        #seletorQuantidade{
+            margin-left: 15%;
+            display: inline-block;
+        }
+
+    }
+}
